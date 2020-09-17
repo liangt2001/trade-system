@@ -1,4 +1,4 @@
-# trading-system
+# The Trade System
 
 Authors: Tian Yue Dong, Jinyu Liu, Murray Smith, Melody Yang, Riya Razdan, Tingyu Liang, Callan Murphy, Louis Scheffer V
 
