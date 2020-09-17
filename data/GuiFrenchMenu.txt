@@ -1,0 +1,349 @@
+Cadre{ - MAINMENU
+Créer un compte
+Connectez-vous en tant qu'administrateur
+Connectez-vous en tant qu'utilisateur
+}
+
+Cadre{ - CREATEUSERACCOUNT
+Parcourir uniquement? (ne peut pas faire de transactions)
+Nom d'utilisateur
+Mot de passe
+Confirmez le mot de passe
+Zone métropolitaine :
+Arrière
+Confirmer
+Les mots de passe ne sont pas de la même longueur. Veuillez vous assurer que le même mot de passe est entré dans les deux champs.
+Les mots de passe ne correspondent pas. Veuillez vous assurer que le même mot de passe est entré dans les deux champs.
+Impossible d'enregistrer ce compte car le nom d'utilisateur est pris.
+Le champ du mot de passe est vide. Veuillez saisir ou confirmer votre mot de passe.
+Le champ du nom d'utilisateur est vide. Merci d'entrer un nom d'utilisateur.
+Compte créé avec succès.
+}
+
+Cadre{ - LOGIN
+Nom d'utilisateur
+Mot de passe
+Arrière
+S'identifier
+Nom d'utilisateur et mot de passe non reconnus
+Connecté :
+}
+
+Cadre{ - TRADINGUSERACTIONSMENU
+Voir les articles et la liste de souhaits
+Afficher les autres utilisateurs de votre région
+Afficher les statistiques utilisateur
+Afficher les transactions en attente
+Définir le statut actif
+Changer de zone métropolitaine
+Demander le dégel
+Votre demande de dégel a été envoyée à l'équipe d'administration pour examen
+Vous n'êtes pas actuellement gelé
+Votre compte a été gelé.
+Voir les métiers morts
+Afficher les demandes commerciales
+Voir les trades terminés
+Afficher les échanges temporaires actifs
+
+Afficher les messages
+}
+
+Cadre{ - ADMINACTIONSMENU
+Définir des seuils commerciaux
+Ajouter un nouvel administrateur
+Afficher les valeurs de seuil actuelles
+Modifier ou annuler une transaction
+Afficher tous les utilisateurs
+Afficher les demandes de validation d'article
+Afficher les messages
+}
+
+Cadre{ - THRESHOLDSMENU
+Actions d'administration
+Définir le seuil d'emprunt / de prêt
+Définir un seuil d'échange complet
+Définir un seuil de transaction incomplet
+Entrez une valeur
+Soumettre
+Le seuil a changé.
+Arrière
+Entrée invalide. S'il vous plait, entrez un nombre valide.
+}
+
+Cadre{ - ADMINVIEWTRADE
+Identifiant commercial:
+Confirmer
+Arrière
+Type de commerce: Demande
+Type de transaction: confirmé
+Type d'échange: Terminé
+Annuler l'échange
+Arrière
+Échange annulé.
+}
+
+Cadre{ - ADMINVIEWUSER
+Envoyer un message
+Afficher les statistiques utilisateur
+Supprimer un article de la liste de souhaits de l'utilisateur
+Supprimer un article de l'inventaire de l'utilisateur
+Figer / libérer l'utilisateur
+Arrière
+Supprimer
+Cliquer sur un objet et appuyer 'Supprimer' pour supprimer cet object
+}
+
+Cadre{ - EDITTRADE
+Afficher les demandes commerciales
+Voir les trades confirmés
+Voir les trades terminés
+Arrière
+}
+
+Cadre{ - ADMINFREEZE
+ statut:
+Congelé
+Pas gelé
+N'est pas applicable
+Geler
+Dégeler
+Arrière
+Compte gelé.
+Compte non gelé.
+aimerait être dégelé.
+}
+
+Cadre{ - BROWSINGUSERACTIONSMENU
+(Navigation)
+Afficher les autres utilisateurs de votre région
+}
+
+Cadre{ - VIEWALLOTHERUSERSMENU
+Sélectionnez un utilisateur à afficher ...
+Arrière
+Confirmer
+Veuillez sélectionner un utilisateur à afficher!
+}
+
+Cadre{ - VIEWUSERMENU
+Affichage de l'utilisateur:
+Les articles des utilisateurs sont affichés à gauche et leur liste de souhaits est affichée à droite.
+Cet utilisateur navigue uniquement, ce qui signifie qu'il n'a aucun article disponible pour le commerce.
+Arrière
+Créer une demande d'échange
+Votre compte navigue uniquement et ne peut donc pas faire de demandes d'échange.
+Cet utilisateur est gelé, ne peut pas effectuer de transactions.
+Cet utilisateur est inactif, ne peut pas effectuer de transactions.
+Envoyer le message
+Articles disponibles
+Liste de souhaits
+Ajouter un article à votre liste de souhaits
+Vous êtes inactif! Changez votre statut en actif pour créer des demandes d'échange.
+Vous êtes CONGELÉ! demande de dégeler pour plus de fonctionnalités!
+}
+
+
+Cadre{ - TRADETOSTRING
+Commerce en chaîne
+Utilisateur 1:
+, Utilisateur 2:
+Objets échangés de l'utilisateur 1 à l'utilisateur 2:
+Objets échangés de l'utilisateur 2 à l'utilisateur 1:
+Heure et date de l'échange:
+Localisation du commerce:
+Identifiant commercial:
+}
+
+Cadre{ - VIEWPENDINGTRADESMENU
+Arrière
+Afficher la sélection
+Veuillez choisir un métier.
+}
+
+Cadre{ - VIEWITEMSANDWISHLISTMENU
+Articles:
+Liste de souhaits:
+Arrière
+Demande d'ajout d'un article à l'inventaire
+}
+
+Cadre{ - SETACTIVESTATUSMENU
+Arrière
+Définir le statut
+actif
+Inactif
+Statut défini avec succès
+Ce statut est le même. Aucun changement n'est survenu
+Ville définie avec succès.
+}
+
+Frame{ - CREATEITEMVALIDATIONREQUESTMENU
+Nom de l'article:
+Description de l'article:
+Arrière
+Créer une demande
+Le champ du nom est vide. Veuillez saisir un nom pour votre article.
+Le champ de description est vide. Veuillez saisir une description pour votre article.
+La demande de validation d'article a été créée avec succès!
+}
+
+Cadre{ - SETACTIVECITYMENU
+Arrière
+Définir la ville
+Ville définie avec succès.
+}
+
+Cadre{ - SENDTRADEREQUESTMENU
+articles de
+Lieu de rencontre:
+Heure de la réunion (format: aaaa-MM-jj HH: mm):
+Format non valide pour la date et l'heure, réessayez (format: aaaa-MM-jj HH: mm):
+Demande d'échange envoyée avec succès
+Envoyer une demande d'échange
+Arrière
+Formulez une demande d'échange en cochant les articles que vous voulez de l'utilisateur sélectionné et cochez les articles que vous souhaitez échanger.
+Commerce temporaire? (Les articles seront retournés après 30 jours)
+}
+
+Frame{ - VIEWITEMVALIDATIONREQUESTS
+Arrière
+Affichage des demandes de validation d'articles. Appuyez sur le bouton à côté de chaque élément pour approuver la demande.
+Nom de l'article:
+Description de l'objet:
+Utilisateur:
+Valider
+}
+
+Cadre{ - ADDNEWADMIN
+Nom d'utilisateur
+Mot de passe
+Arrière
+Confirmer
+Impossible d'enregistrer ce compte car le nom d'utilisateur est pris.
+Le champ du mot de passe est vide. Veuillez saisir ou confirmer votre mot de passe.
+Le champ du nom d'utilisateur est vide. Merci d'entrer un nom d'utilisateur.
+Compte créé avec succès.
+Ajouter un nouvel administrateur
+}
+
+Cadre{ - SENDMESSAGEMENU
+Message
+Arrière
+Entrez votre message ici
+Le message a bien été envoyé!
+}
+
+Cadre{ - VIEWUSERSTATSMENU
+Objets empruntés
+Articles prêtés
+Statut gelé
+Opérations incomplètes
+Transactions hebdomadaires
+Articles les plus récemment échangés
+Partenaires commerciaux les plus fréquents
+Congelé
+Pas gelé
+Aucun
+Arrière
+}
+
+Cadre{ - ACCEPTTRADEMENU
+Arrière
+Accepter la demande commerciale
+Utilisateur 1:
+Utilisateur 2:
+Éléments transférés de l'utilisateur 1 à l'utilisateur 2:
+Éléments transférés de l'utilisateur 2 à l'utilisateur 2:
+Lieu de réunion:
+Heure de réunion:
+Utilisateur 1 accepté:
+Utilisateur 2 accepté:
+Nombre de contre-offres de l'utilisateur 1 restantes:
+Nombre de contre-offres de l'utilisateur 2 restantes:
+Numéro d'identification commerciale:
+Vous avez déjà accepté cette demande d'échange.
+Cette demande d'échange a été acceptée.
+Cette demande d'échange a été refusée. Ce commerce sera marqué comme mort.
+Refuser la demande d'échange
+Faire une contre-offre
+}
+
+Cadre{ - CONFIRMTRADEMENU
+Arrière
+Confirmer que l'échange a eu lieu
+Utilisateur 1:
+Utilisateur 2:
+Éléments transférés de l'utilisateur 1 à l'utilisateur 2:
+Éléments transférés de l'utilisateur 2 à l'utilisateur 2:
+Lieu de réunion:
+Heure de réunion:
+L'utilisateur 1 a confirmé l'échange:
+L'utilisateur 2 a confirmé l'échange:
+Nombre de contre-offres de l'utilisateur 1 restantes:
+Nombre de contre-offres de l'utilisateur 2 restantes:
+Numéro d'identification commerciale:
+Vous avez marqué ce commerce comme confirmé.
+Signaler le commerce à l'administrateur
+Rapport envoyé à l'administrateur
+Veuillez détailler pourquoi vous signalez cette transaction à l'équipe d'administration.
+Confirmer que le commerce a eu lieu (peut être fait après le moment de l'échange)
+}
+
+Cadre{ - SUGGESTTRADE
+Cool!
+Articles sur leur liste de souhaits que vous possédez:
+Articles sur votre liste de souhaits qu'ils possèdent:
+}
+
+Cadre{ - CONFIRMREEXCHANGEMENU
+Arrière
+Confirmer que le ré-échange a eu lieu
+Utilisateur 1:
+Utilisateur 2:
+Utilisateur 2:
+Éléments transférés de l'utilisateur 1 à l'utilisateur 2:
+Éléments transférés de l'utilisateur 2 à l'utilisateur 2:
+Lieu de réunion:
+Heure de réunion:
+L'utilisateur 1 a confirmé le rééchange:
+L'utilisateur 2 a confirmé le rééchange:
+Nombre de contre-offres de l'utilisateur 1 restantes:
+Nombre de contre-offres de l'utilisateur 2 restantes:
+Numéro d'identification commerciale:
+Vous avez le ré-échange comme terminé.
+Signaler le commerce à l'administrateur
+Rapport envoyé à l'administrateur
+Veuillez détailler pourquoi vous signalez cette transaction à l'équipe d'administration.
+Confirmer que le ré-échange a eu lieu (peut être effectué après la date d'échéance)
+}
+
+Cadre{ - ADDITEMTOWISHLISTMENU
+Affichage des éléments de
+. Appuyez sur le bouton de chacun pour l'ajouter à votre liste de souhaits.
+Ajouter
+Article ajouté avec succès à la liste de souhaits
+L'article n'a pas pu être ajouté à la liste de souhaits
+Arrière
+}
+
+Cadre{ - VIEWCURRENTTHRESHOLDS
+Seuil d'emprunt / prêt:
+Seuil commercial incomplet:
+Seuil d'échange hebdomadaire complet:
+Arrière
+}
+
+Cadre{ - ITEMVIEWER
+Retirer l'objet
+Arrière
+}
+
+Cadre{ - REMOVEFROMINVENTORY
+Supprimer du menu d'inventaire
+Élément que vous souhaitez supprimer:
+Soumettre
+Arrière
+L'article a bien été supprimé de son inventaire
+Le champ ID de l'article n'est pas valide. Veuillez saisir l'ID de l'élément que vous souhaitez supprimer.
+L'article n'a pas pu être supprimé de son inventaire
+}

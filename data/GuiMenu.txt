@@ -1,0 +1,349 @@
+Frame{ - MAINMENU
+Create account
+Log in as admin
+Log in as user
+}
+
+Frame{ - CREATEUSERACCOUNT
+Browse-only? (cannot make trades)
+Username
+Password
+Confirm password
+Metropolitan area :
+Back
+Confirm
+Passwords are not the same length. Please ensure the same password is entered in both fields.
+Passwords do not match. Please ensure the same password is entered in both fields.
+Could not register this account because the username is taken.
+Password field is empty. Please enter or confirm your password.
+Username field is empty. Please enter a username.
+Account successfully created.
+}
+
+Frame{ - LOGIN
+Username
+Password
+Back
+Log in
+Username and Password not recognized
+Logged in:
+}
+
+Frame{ - TRADINGUSERACTIONSMENU
+View items and wishlist
+View other users in your area
+View user stats
+View pending trades
+Set active status
+Change metro area
+Request unfreeze
+Your unfreeze request has been sent to the admin team for review
+You are not currently Frozen
+Your account has been frozen.
+View dead trades
+View trade requests
+View completed trades
+View active temporary trades
+
+View messages
+}
+
+Frame{ - ADMINACTIONSMENU
+Set trade thresholds
+Add a New Admin
+View Current Threshold Values
+Edit or Undo a Trade
+View All Users
+View Item Validation Requests
+View messages
+}
+
+Frame{ - THRESHOLDSMENU
+Admin Actions
+Set Borrow/Lend Threshold
+Set Complete Trade Threshold
+Set Incomplete Trade Threshold
+Enter a value
+Submit
+Threshold changed.
+Back
+Invalid input. Please enter a valid number.
+}
+
+Frame{ - ADMINVIEWTRADE
+Trade ID:
+Confirm
+Back
+Trade type: Request
+Trade type: Confirmed
+Trade type: Completed
+Undo Trade
+Back
+Trade undone.
+}
+
+Frame{ - ADMINVIEWUSER
+Send a message
+View user stats
+Remove an item from user's wishlist
+Remove an item from user's inventory
+Freeze/Unfreeze User
+Back
+Remove
+Click on a single item in the list below and press 'Remove' to remove it from a user's wishlist
+}
+
+Frame{ - EDITTRADE
+View trade requests
+View confirmed trades
+View completed trades
+Back
+}
+
+Frame{ - ADMINFREEZE
+ status:
+Frozen
+Not frozen
+Not Applicable
+Freeze
+Unfreeze
+Back
+Account frozen.
+Account unfrozen.
+would like to be unfrozen.
+}
+
+Frame{ - BROWSINGUSERACTIONSMENU
+(Browsing)
+View other users in your area
+}
+
+Frame{ - VIEWALLOTHERUSERSMENU
+Select a user to view...
+Back
+Confirm
+Please select a user to view!
+}
+
+Frame{ - VIEWUSERMENU
+Viewing User:
+The users items are displayed on the left, and their wishlist is displayed on the right.
+This user is Browsing only, meaning they have no items available for trade.
+Back
+Create Trade Request
+Your account is browsing only, and thus cannot make trade requests.
+This user is frozen, cannot make trades.
+This user is inactive, cannot make trades.
+Send Message
+Available Items
+Wishlist
+Add Item to Your Wishlist
+You are inactive! Change your status to active to create trade requests.
+You are FROZEN! request to unfreeze for more functionality!
+}
+
+
+Frame{ - TRADETOSTRING
+Trade to String
+User 1:
+, User 2:
+Items being traded from User 1 to User 2:
+Items being traded from User 2 to User 1:
+Time and date of exchange:
+Location of trade:
+Trade ID:
+}
+
+Frame{ - VIEWPENDINGTRADESMENU
+Back
+View SelectedTrade
+Please pick a trade.
+}
+
+Frame{ - VIEWITEMSANDWISHLISTMENU
+Items:
+Wishlist:
+Back
+Request to Add an Item to inventory
+}
+
+Frame{ - SETACTIVESTATUSMENU
+Back
+Set Status
+Active
+Inactive
+Status set successfully
+This status is the same. No change occurred
+City set successfully.
+}
+
+Frame{ - CREATEITEMVALIDATIONREQUESTMENU
+Item name:
+Item description:
+Back
+Create Request
+The name field is empty. Please enter a name for your item.
+The description field is empty. Please enter a description for your item.
+Item Validation Request successfully created!
+}
+
+Frame{ - SETACTIVECITYMENU
+Back
+Set City
+City successfully set.
+}
+
+Frame{ - SENDTRADEREQUESTMENU
+'s items
+Meeting place:
+Meeting time (format: yyyy-MM-dd HH:mm):
+Invalid format for Date and Time, Try again (format: yyyy-MM-dd HH:mm):
+Trade Request sent successfully
+Send Trade Request
+Back
+Form trade request by checking the items you want from the selected user, and check the items that you want to trade away.
+Temporary Trade? (Items will be returned after 30 days)
+}
+
+Frame{ - VIEWITEMVALIDATIONREQUESTS
+Back
+Viewing item validation requests. Press the button next to each item to approve the request.
+Item name:
+Item Description:
+User:
+Validate
+}
+
+Frame{ - ADDNEWADMIN
+Username
+Password
+Back
+Confirm
+Could not register this account because the username is taken.
+Password field is empty. Please enter or confirm your password.
+Username field is empty. Please enter a username.
+Account successfully created.
+Add a New Admin
+}
+
+Frame{ - SENDMESSAGEMENU
+Message
+Back
+Enter your message here
+The message has been successfully sent!
+}
+
+Frame{ - VIEWUSERSTATSMENU
+Items Borrowed
+Items Lent
+Frozen Status
+Incomplete Trades
+Weekly Transactions
+Most Recently Traded Items
+Most Frequent Trading Partners
+Frozen
+Not Frozen
+None
+Back
+}
+
+Frame{ - ACCEPTTRADEMENU
+Back
+Accept Trade Request
+User 1:
+User 2:
+Items being transferred from user 1 to user 2:
+Items being transferred from user 2 to user 2:
+Meeting Location:
+Meeting Time:
+User 1 accepted:
+User 2 accepted:
+User 1 number of counter-offers remaining:
+User 2 number of counter-offers remaining:
+Trade ID number:
+You have already accepted this trade request.
+This trade request has been accepted.
+This trade request has been declined. This trade will be marked as dead.
+Decline Trade Request
+Make a counter-offer
+}
+
+Frame{ - CONFIRMTRADEMENU
+Back
+Confirm trade has occurred
+User 1:
+User 2:
+Items being transferred from user 1 to user 2:
+Items being transferred from user 2 to user 2:
+Meeting Location:
+Meeting Time:
+User 1 confirmed the exchange:
+User 2 confirmed the exchange:
+User 1 number of counter-offers remaining:
+User 2 number of counter-offers remaining:
+Trade ID number:
+You have marked this trade as confirmed.
+Report trade to admin
+Report sent to admin
+Please detail why you are reporting this trade to the admin team.
+Confirm Trade has occurred (Can be done after the time of exchange has passed)
+}
+
+Frame{ - SUGGESTTRADE
+Cool!
+Items on their wishlist that you own:
+Items on your wishlist that they own:
+}
+
+Frame{ - CONFIRMREEXCHANGEMENU
+Back
+Confirm Re-Exchange has occurred
+User 1:
+User 2:
+User 2:
+Items being transferred from user 1 to user 2:
+Items being transferred from user 2 to user 2:
+Meeting Location:
+Meeting Time:
+User 1 confirmed the Re-Exchange:
+User 2 confirmed the Re-Exchange:
+User 1 number of counter-offers remaining:
+User 2 number of counter-offers remaining:
+Trade ID number:
+You have the Re-Exchange as completed.
+Report trade to admin
+Report sent to admin
+Please detail why you are reporting this trade to the admin team.
+Confirm Re-Exchange has occurred (Can be done after the due date)
+}
+
+Frame{ - ADDITEMTOWISHLISTMENU
+Displaying items of
+. Press the button by each one to add it to your wishlist.
+Add
+Item Successfully added to wishlist
+Item Could not be added to wishlist
+Back
+}
+
+Frame{ - VIEWCURRENTTHRESHOLDS
+Borrow/Lend threshold:
+Incomplete trade threshold:
+Complete weekly trade threshold:
+Back
+}
+
+Frame{ - ITEMVIEWER
+Remove Item
+Back
+}
+
+Frame{ - REMOVEFROMINVENTORY
+Remove From Inventory Menu
+Item you want to remove:
+Submit
+Back
+Item successfully removed from their inventory
+The item ID field is invalid. Please enter the ID of the item you want to remove.
+Item could not be removed from their inventory
+}
