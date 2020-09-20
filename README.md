@@ -1,14 +1,13 @@
 # The Trade System
 
-The Trade System is a program that allows users to view and trade items with each other!
-
-The interface is of this program is a Java.swing GUI. To navigate through the program, first choose your preferred
-language: English or French. You will then be able to create a new user account or login either as a user or as an admin.
+The Trade System is a program that allows users to view and trade items with each other
 
 
 ## Setup
 1. Download the source code and open the project in IntelliJ. Navigate to 'src/Main.java'. Then, run 'Main.main()'.
-2. The relevant menu can be accessed and all functionality will be available at this point.
+2. The interface is of this program is a Java.swing GUI. To navigate through the program, first choose your preferred
+language: English or French. You will then be able to create a new user account or login either as a user or as an admin.
+3. The relevant menu can be accessed and all functionality will be available at this point.
 
 
 ## Features
