@@ -12,7 +12,7 @@ public class FileManager {
     //used https://www.tutorialspoint.com/java/java_serialization.htm and
     //https://attacomsian.com/blog/java-write-object-to-file as a reference
 
-    private final static String dir = "phase2/data/"; //file directory
+    private final static String dir = "data/"; //file directory
 
     private static void saveToFile(Object obj, String fileName) {
         try {

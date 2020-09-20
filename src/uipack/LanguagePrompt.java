@@ -23,8 +23,8 @@ public class LanguagePrompt {
      * @param frame the main window displayed to the trading user of the program
      */
     public LanguagePrompt(UseCaseGrouper useCases, ControllerPresenterGrouper controllerPresenterGrouper, JFrame frame){
-        frenchButton.setIcon(new ImageIcon("phase2/data/baguette.png"));
-        englishButton.setIcon(new ImageIcon("phase2/data/tea.png"));
+        frenchButton.setIcon(new ImageIcon("data/baguette.png"));
+        englishButton.setIcon(new ImageIcon("data/tea.png"));
         frame.setMinimumSize(new Dimension(800, 600));
         panelMain.setSize(800, 600);
         frame.setContentPane(panelMain);
