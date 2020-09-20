@@ -26,7 +26,7 @@ public class TradeSystem {
     private BrowsingUserActions browsingUserActions = new BrowsingUserActions();
     private StartupController startupController = new StartupController();
 
-    private String dir = "phase2/data/";
+    private String dir = "data/";
 
     /**
      * Empty constructor. Creates a new instance of controllerpresenterpack.TradeSystem.
@@ -44,7 +44,7 @@ public class TradeSystem {
      * @return a use case grouper object containing all recently loaded use cases
      */
     public UseCaseGrouper loadData(){
-        File directory = new File("phase2/data");
+        File directory = new File("data");
         if (! directory.exists()) {
             directory.mkdir();
         }

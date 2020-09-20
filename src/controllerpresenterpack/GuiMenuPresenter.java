@@ -26,9 +26,9 @@ public class GuiMenuPresenter {
     public GuiMenuPresenter(String language) {
         try {
             if (language.equals("English")) {
-                menu = new File("phase2/data/GuiMenu.txt");
+                menu = new File("data/GuiMenu.txt");
             } else if (language.equals("French")) {
-                menu = new File("phase2/data/GuiFrenchMenu.txt");
+                menu = new File("data/GuiFrenchMenu.txt");
             }
             BufferedReader br = new BufferedReader(new FileReader(menu));
 
